@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr) ;
+
+    /*display: grid;
+    grid-template-columns: repeat(16, 1fr);*/
+   
+}
+
+
+
+.square {  
+    border: 1px solid black;
+    padding: 20px;  
+}
+
+
+
+
