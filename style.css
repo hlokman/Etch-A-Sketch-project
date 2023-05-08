@@ -4,20 +4,34 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Roboto, sans-serif;
 }
 
-#container {
+h1 {
+    font-size: 35px;
+}
+
+#button {
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#container
+ {
     /*border: 1px solid green; 
     => create issue with event listener on #container*/
     display: grid;
     background-color: solid black;
-    grid-template-columns: repeat(16, 1fr);
     width: 960px;
     height: 960px;
-    
+    /*grid-template-columns: repeat(16, 1fr);*/
     /*grid-template-rows: repeat(16, 1fr) ;*/
 }
-
 
 
 .square {  
